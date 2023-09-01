@@ -7,8 +7,29 @@ section {
   align-items: center;
 }
 
+.home__left {
+  margin-top: -15rem;
+}
+
+.home__rigth {
+  place-items: center;
+  position: relative;
+}
+
+.home__image {
+  position: relative;
+  border-radius: 20rem 0 10rem 0;
+  overflow: hidden;
+}
+
 .home__content {
   max-width: none;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
 }
 
 .home__content h1 {
@@ -42,37 +63,6 @@ section {
   height: 5rem;
 }
 
-/* .home__btn {
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 15rem;
-  font-weight: 100%;
-  background: var(--main-color);
-  border: 0.2rem solid;
-  border-radius: 0.8rem;
-  font-size: 1.8rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  color: var(--primary-color);
-  border: 0.2rem solid var(--main-color);
-  border-radius: 0.8rem;
-} */
-
-/* .home__btn-box .btn:nth-child(2) {
-  background: transparent;
-  color: var(--main-color);
-} */
-
-/* .home__btn-box .btn:nth-child(2):hover {
-  color: var(--primary-color);
-} */
-
-/* .home__btn-box .btn:nth-child(2)::before {
-  background: var(--main-color);
-} */
-
 .home__btn-box .btn::before {
   content: "";
   position: absolute;
@@ -87,4 +77,68 @@ section {
 
 .home__btn-box .btn:hover::before {
   width: 100%;
+}
+
+.home__sci {
+  position: absolute;
+  bottom: -14rem;
+  width: 170px;
+  display: flex;
+  justify-content: initial;
+}
+
+.home__sci a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(--main-color);
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(--main-color);
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-right: 1rem;
+}
+
+.home__sci a:hover {
+  color: var(--bg-color);
+}
+
+.home__sci a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--main-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.home__sci a:hover::before {
+  width: 100%;
+}
+
+.home-imgHover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: transparent;
+  transition: 3s;
+}
+
+.home-imgHover:hover {
+  background: var(--primary-color);
+  opacity: 0.8s;
 }
