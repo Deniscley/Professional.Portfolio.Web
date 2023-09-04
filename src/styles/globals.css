@@ -43,6 +43,10 @@ body {
   margin-inline: auto;
 }
 
+section {
+  min-height: 100vh;
+}
+
 .btn {
   position: relative;
   display: inline-flex;
