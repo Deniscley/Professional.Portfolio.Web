@@ -12,19 +12,17 @@ nav {
 
 .show__nav {
   display: none;
-  padding-top: 1rem;
 }
 
 .hide__nav {
   display: none;
-  padding-top: 1rem;
 }
 
 .logo {
   font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 600;
-  margin-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 /* Só aparece em telas médias e pequenas */
@@ -46,6 +44,7 @@ nav {
   display: flex;
   gap: 2rem;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .nav__links div {
