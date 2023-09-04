@@ -1,5 +1,5 @@
 import "./main-home.css";
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineDownload, AiOutlineMail } from "react-icons/ai";
 import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
 
 export default function MainHome() {
@@ -21,8 +21,8 @@ export default function MainHome() {
 
               <div className="home__btn-box">
                 <a href="" className="btn">
-                  Download CV
                   <AiOutlineDownload />
+                  Download CV
                 </a>
               </div>
 
@@ -32,6 +32,9 @@ export default function MainHome() {
                 </a>
                 <a href="" target="_blank" rel="noreferrer noopener">
                   <BiLogoGithub />
+                </a>
+                <a href="" target="_blank" rel="noreferrer noopener">
+                  <AiOutlineMail />
                 </a>
               </div>
             </div>
@@ -48,7 +51,7 @@ export default function MainHome() {
             </div>
           </div>
         </div>
-        <div className="home-imgHover"></div>
+        <div className="home__img-hover" />
       </section>
       <script></script>
     </>
