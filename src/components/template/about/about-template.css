@@ -5,9 +5,10 @@
   gap: 2rem;
   background: var(--second-color);
   padding-bottom: 6rem;
+  padding: 5rem;
 }
 
-.about__heading {
+/* .about__heading {
   font-size: 5rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -15,7 +16,7 @@
 
 span {
   color: var(--main-color);
-}
+} */
 
 .about__img {
   position: relative;

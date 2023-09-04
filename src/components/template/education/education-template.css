@@ -1,0 +1,47 @@
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 5rem;
+  padding: 5rem;
+}
+
+.education .education__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.education__row .education__column {
+  flex: 1 1 40rem;
+}
+
+.education__column .title {
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 2rem;
+}
+
+.education__column .education__box {
+  border-left: 0.2rem solid var(--main-color);
+}
+
+.education__box .education__content {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.education__content .content {
+  position: relative;
+  padding: 1.5rem;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.education__content .content .year {
+  font-size: 1.5rem;
+  color: var(--main-color);
+  padding-bottom: 0.5rem;
+}
