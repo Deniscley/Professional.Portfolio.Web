@@ -22,7 +22,7 @@ export default function MainHome() {
               <div className="home__btn-box">
                 <a href="" className="btn">
                   <AiOutlineDownload />
-                  Download CV
+                  <div>Download CV</div>
                 </a>
               </div>
 
@@ -46,12 +46,11 @@ export default function MainHome() {
                 src="/images/deniscley_foto2-home.jpg"
                 alt="Main Home Image"
                 width={540}
-                height={600}
+                height={595}
               />
             </div>
           </div>
         </div>
-        <div className="home__img-hover" />
       </section>
       <script></script>
     </>
