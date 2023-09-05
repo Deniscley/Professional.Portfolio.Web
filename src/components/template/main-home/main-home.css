@@ -128,7 +128,7 @@
   width: 100%;
 }
 
-.home__img-hover {
+/* .home__img-hover {
   position: absolute;
   top: 0;
   right: 0;
@@ -136,7 +136,7 @@
   height: 100%;
   background: transparent;
   transition: 3s;
-}
+} */
 
 .home__img-hover:hover {
   background: var(--primary-color);

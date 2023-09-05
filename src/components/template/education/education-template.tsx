@@ -52,6 +52,14 @@ export default function EducationTemplate() {
           </div>
         </div>
       </div>
+      <div className="education__img">
+        <img
+          src="/images/engin-akyurt.jpg"
+          alt="Computer Image"
+          width={1000}
+          height={600}
+        ></img>
+      </div>
     </section>
   );
 }
