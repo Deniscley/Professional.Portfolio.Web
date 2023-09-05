@@ -1,6 +1,7 @@
 .skills {
   padding: 5rem 18rem 5rem 19rem;
   background: var(--second-color);
+  text-align: center;
 }
 
 .skills .skills__row {
@@ -54,4 +55,14 @@
 
 .skills__box .skills__content:hover::before {
   width: 100%;
+}
+
+.skills__images-tools {
+  margin-top: 10rem;
+  opacity: 0.08;
+  /* filter: blur(0.2rem); */
+}
+
+.skills__images-tools img {
+  border-radius: 0 20rem 0 10rem;
 }
