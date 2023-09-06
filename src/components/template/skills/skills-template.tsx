@@ -150,13 +150,15 @@ export default function SkillsTemplate() {
           </div>
         </div>
       </div>
-      <div className="skills__images-tools">
-        <img
-          src="/images/ferramentas.jpg"
-          alt="Computer Image"
-          width={1000}
-          height={600}
-        />
+      <div className="skills__images">
+        <div className="skills__images-tools">
+          <img
+            src="/images/ferramentas.jpg"
+            alt="Computer Image"
+            width={480}
+            height={480}
+          />
+        </div>
       </div>
     </section>
   );
