@@ -132,6 +132,14 @@ export default function SkillsTemplate() {
                     height={75}
                   />
                   <h3 style={{ marginBottom: "1rem" }}>PostgreSQL</h3>
+
+                  <img
+                    src="/images/skills/mysql.svg"
+                    alt="HTML"
+                    width={75}
+                    height={75}
+                  />
+                  <h3 style={{ marginBottom: "1rem" }}>MySQL</h3>
                 </div>
               </div>
             </div>
@@ -141,7 +149,7 @@ export default function SkillsTemplate() {
       <div className="skills__images">
         <div className="skills__images-tools">
           <img
-            src="/images/computacao_habilidades.jpg"
+            src="/images/coding.jpg"
             alt="Computer Image"
             width={480}
             height={480}
