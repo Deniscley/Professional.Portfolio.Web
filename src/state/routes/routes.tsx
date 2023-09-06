@@ -20,6 +20,10 @@ export const links = [
     path: "/servicos",
   },
   {
+    name: "Portfólio",
+    path: "/portfolio",
+  },
+  {
     name: "Contato",
     path: "/contato",
   },
