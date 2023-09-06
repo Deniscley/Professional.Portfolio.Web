@@ -1,4 +1,4 @@
-export default function EducationLayout({
+export default function JourneyLayout({
   children,
 }: {
   children: React.ReactNode;

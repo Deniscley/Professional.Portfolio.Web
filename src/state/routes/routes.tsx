@@ -8,12 +8,16 @@ export const links = [
     path: "/sobre",
   },
   {
-    name: "Educação",
-    path: "/educacao",
+    name: "Jornada",
+    path: "/jornada",
   },
   {
     name: "Habilidades",
     path: "/habilidades",
+  },
+  {
+    name: "Serviços",
+    path: "/servicos",
   },
   {
     name: "Contato",

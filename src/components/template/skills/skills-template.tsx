@@ -21,9 +21,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
-                    HTML
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>HTML</h3>
 
                   <img
                     src="/images/skills/css.svg"
@@ -31,9 +29,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "2.5rem", marginBottom: "1rem" }}>
-                    CSS
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>CSS</h3>
                 </div>
 
                 <div className="skills_img">
@@ -43,9 +39,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "0.5rem", marginBottom: "1rem" }}>
-                    JavaScript
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>JavaScript</h3>
 
                   <img
                     src="/images/skills/typescript.svg"
@@ -53,9 +47,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "0.5rem", marginBottom: "1rem" }}>
-                    TypeScript
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>TypeScript</h3>
                 </div>
 
                 <div className="skills_img">
@@ -65,9 +57,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
-                    React
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>React</h3>
 
                   <img
                     src="/images/skills/angular.svg"
@@ -75,9 +65,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "1.2rem", marginBottom: "1rem" }}>
-                    Angular
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>Angular</h3>
                 </div>
 
                 <div className="skills_img">
@@ -87,9 +75,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "1.5rem", marginBottom: "1rem" }}>
-                    Next.JS
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>Next.JS</h3>
                 </div>
               </div>
             </div>
@@ -109,9 +95,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "2.2rem", marginBottom: "1rem" }}>
-                    .Net
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>.Net</h3>
 
                   <img
                     src="/images/skills/c4.svg"
@@ -119,9 +103,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "2.7rem", marginBottom: "1rem" }}>
-                    C#
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>C#</h3>
                 </div>
 
                 <div>
@@ -131,9 +113,7 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "1rem", marginBottom: "1rem" }}>
-                    SQL Server
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>SQL Server</h3>
 
                   <img
                     src="/images/skills/mongodb.svg"
@@ -141,9 +121,17 @@ export default function SkillsTemplate() {
                     width={75}
                     height={75}
                   />
-                  <h3 style={{ marginLeft: "0.9rem", marginBottom: "1rem" }}>
-                    MongoDB
-                  </h3>
+                  <h3 style={{ marginBottom: "1rem" }}>MongoDB</h3>
+                </div>
+
+                <div>
+                  <img
+                    src="/images/skills/postgresql.svg"
+                    alt="HTML"
+                    width={75}
+                    height={75}
+                  />
+                  <h3 style={{ marginBottom: "1rem" }}>PostgreSQL</h3>
                 </div>
               </div>
             </div>
@@ -153,7 +141,7 @@ export default function SkillsTemplate() {
       <div className="skills__images">
         <div className="skills__images-tools">
           <img
-            src="/images/ferramentas.jpg"
+            src="/images/computacao_habilidades.jpg"
             alt="Computer Image"
             width={480}
             height={480}

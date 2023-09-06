@@ -4,7 +4,7 @@ export default function AboutTemplate() {
   return (
     <section className="about" id="about">
       <h2 className="heading">
-        About <span>Me</span>
+        Sobre <span>Mim</span>
       </h2>
       <div className="about__img">
         <img
