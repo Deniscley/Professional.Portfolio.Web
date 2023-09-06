@@ -26,6 +26,11 @@
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.education__img-image:hover {
+  transform: rotate(0);
 }
 
 .education .education__row {
