@@ -7,9 +7,40 @@ export default function ServicesTemplate() {
       <h2 className="heading">
         Meus <span className="services__subtitle">Serviços</span>
       </h2>
-
       <article className="service">
         <div className="service__row">
+          <div className="service__column">
+            <h3 className="title">Front-End</h3>
+            <ul className="service__list">
+              <div className="service__content">
+                <li>
+                  <BiCheck className="service__list-icon" />
+                  <p>
+                    Manutenção e otimização de websites e interfaces de usuário;
+                  </p>
+                </li>
+                <li>
+                  <BiCheck className="service__list-icon" />
+                  <p>
+                    Melhorar a usabilidade do usuário através de novas
+                    funcionalidades e processos;
+                  </p>
+                </li>
+                <li>
+                  <BiCheck className="service__list-icon" />
+                  <p>Converter o design da peça UX/UI em realidade;</p>
+                </li>
+                <li>
+                  <BiCheck className="service__list-icon" />
+                  <p>
+                    Criar ferramentas e elementos que melhorem a interação com o
+                    site em qualquer dispositivo ou navegador;
+                  </p>
+                </li>
+              </div>
+            </ul>
+          </div>
+
           <div className="service__column">
             <h3 className="title">Back-End</h3>
             <ul className="service__list">
@@ -39,38 +70,6 @@ export default function ServicesTemplate() {
                 <li>
                   <BiCheck className="service__list-icon" />
                   <p>Criação, integração e gerenciamento de Bancos de Dados;</p>
-                </li>
-              </div>
-            </ul>
-          </div>
-
-          <div className="service__column">
-            <h3 className="title">Front-End</h3>
-            <ul className="service__list">
-              <div className="service__content">
-                <li>
-                  <BiCheck className="service__list-icon" />
-                  <p>
-                    Manutenção e otimização de websites e interfaces de usuário;
-                  </p>
-                </li>
-                <li>
-                  <BiCheck className="service__list-icon" />
-                  <p>
-                    Melhorar a usabilidade do usuário através de novas
-                    funcionalidades e processos;
-                  </p>
-                </li>
-                <li>
-                  <BiCheck className="service__list-icon" />
-                  <p>Converter o design da peça UX/UI em realidade;</p>
-                </li>
-                <li>
-                  <BiCheck className="service__list-icon" />
-                  <p>
-                    Criar ferramentas e elementos que melhorem a interação com o
-                    site em qualquer dispositivo ou navegador;
-                  </p>
                 </li>
               </div>
             </ul>

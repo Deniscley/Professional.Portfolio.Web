@@ -1,8 +1,8 @@
-import "./main-home.css";
+import "./home-template.css";
 import { AiOutlineDownload, AiOutlineMail } from "react-icons/ai";
 import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
 
-export default function MainHome() {
+export default function HomeTemplate() {
   return (
     <>
       <section className="home">
