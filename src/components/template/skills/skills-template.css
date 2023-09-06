@@ -4,6 +4,27 @@
   text-align: center;
 }
 
+.skills__images {
+  margin-top: 10rem;
+  width: 30%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--main-color),
+    transparent
+  );
+  display: inline-flex;
+  place-items: center;
+}
+
+.skills__images-tools {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+}
+
 .skills .skills__row {
   display: flex;
   flex-wrap: wrap;
@@ -55,14 +76,4 @@
 
 .skills__box .skills__content:hover::before {
   width: 100%;
-}
-
-.skills__images-tools {
-  margin-top: 10rem;
-  opacity: 0.08;
-  /* filter: blur(0.2rem); */
-}
-
-.skills__images-tools img {
-  border-radius: 0 20rem 0 10rem;
 }

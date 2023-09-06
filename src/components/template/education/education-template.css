@@ -9,12 +9,23 @@
 
 .education__img {
   margin-top: 10rem;
-  opacity: 0.08;
-  /* filter: blur(0.2rem); */
+  width: 30%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--main-color),
+    transparent
+  );
+  display: grid;
+  place-items: center;
 }
 
-.education__img img {
-  border-radius: 0 20rem 0 10rem;
+.education__img-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
 }
 
 .education .education__row {
