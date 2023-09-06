@@ -56,18 +56,16 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-.skills__box .skills__content {
+.skills__content {
   position: relative;
   border: 0.2rem solid var(--main-color);
   border-radius: 0.6rem;
-  padding: 0.5rem 1.5rem;
-  /* display: "flex"; */
   padding: 1rem 1rem 0 1rem;
   z-index: 1;
   overflow: hidden;
 }
 
-.skills__box .skills__content::before {
+.skills__content::before {
   content: "";
   position: absolute;
   top: 0;
@@ -79,6 +77,6 @@
   transition: 0.5s;
 }
 
-.skills__box .skills__content:hover::before {
+.skills__content:hover::before {
   width: 100%;
 }
