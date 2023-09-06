@@ -1,4 +1,4 @@
-.education {
+.journey {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,9 +7,9 @@
   padding: 5rem 18rem 5rem 19rem;
 }
 
-.education__img {
+.journey__img {
   margin-top: 10rem;
-  width: 30%;
+  width: 31%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(
@@ -22,42 +22,42 @@
   place-items: center;
 }
 
-.education__img-image {
+.journey__img-image {
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
 }
 
-.education__img-image:hover {
+.journey__img-image:hover {
   transform: rotate(0);
 }
 
-.education .education__row {
+.journey__row {
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
 }
 
-.education__row .education__column {
+.journey__column {
   flex: 1 1 40rem;
 }
 
-.education__column .title {
+.journey__column .title {
   font-size: 2.5rem;
   margin: 0 0 1.5rem 2rem;
 }
 
-.education__column .education__box {
+.journey__box {
   border-left: 0.2rem solid var(--main-color);
 }
 
-.education__box .education__content {
+.journey__content {
   position: relative;
   padding-left: 2rem;
 }
 
-.education__box .education__content::before {
+.journey__content::before {
   content: "";
   position: absolute;
   top: 0;
@@ -68,7 +68,7 @@
   border-radius: 50%;
 }
 
-.education__content .content {
+.journey__content .content {
   position: relative;
   padding: 1.5rem;
   border: 0.2rem solid var(--main-color);
@@ -77,7 +77,7 @@
   overflow: hidden;
 }
 
-.education__content .content::before {
+.journey__content .content::before {
   content: "";
   position: absolute;
   top: 0;
@@ -89,21 +89,21 @@
   transition: 0.5s;
 }
 
-.education__content .content:hover::before {
+.journey__content .content:hover::before {
   width: 100%;
 }
 
-.education__content .content .year {
+.journey__content .content .year {
   font-size: 1.5rem;
   color: var(--main-color);
   padding-bottom: 0.5rem;
 }
 
-.education__content .content h3 {
+.journey__content .content h3 {
   font-size: 2rem;
 }
 
-.education__content .content p {
+.journey__content .content p {
   font-size: 1.6rem;
   padding-top: 0.5rem;
 }

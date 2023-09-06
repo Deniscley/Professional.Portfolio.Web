@@ -1,17 +1,17 @@
 import { BiSolidCalendar } from "react-icons/bi";
-import "./education-template.css";
+import "./journey-template.css";
 
-export default function EducationTemplate() {
+export default function JourneyTemplate() {
   return (
-    <section className="education" id="education">
+    <section className="journey" id="journey">
       <h2 className="heading">
         Minha <span>Jornada</span>
       </h2>
-      <div className="education__row">
-        <div className="education__column">
+      <div className="journey__row">
+        <div className="journey__column">
           <h3 className="title">Educação</h3>
-          <div className="education__box">
-            <div className="education__content">
+          <div className="journey__box">
+            <div className="journey__content">
               <div className="content">
                 <div className="year">
                   <BiSolidCalendar />
@@ -30,10 +30,10 @@ export default function EducationTemplate() {
           </div>
         </div>
 
-        <div className="education__column">
+        <div className="journey__column">
           <h3 className="title">Experiência</h3>
-          <div className="education__box">
-            <div className="education__content">
+          <div className="journey__box">
+            <div className="journey__content">
               <div className="content">
                 <div className="year">
                   <BiSolidCalendar />
@@ -52,8 +52,8 @@ export default function EducationTemplate() {
           </div>
         </div>
       </div>
-      <div className="education__img">
-        <div className="education__img-image">
+      <div className="journey__img">
+        <div className="journey__img-image">
           <img
             src="/images/engin-akyurt.jpg"
             alt="Computer Image"
