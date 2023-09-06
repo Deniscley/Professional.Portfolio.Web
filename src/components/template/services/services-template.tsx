@@ -5,7 +5,7 @@ export default function ServicesTemplate() {
   return (
     <section className="services">
       <h2 className="heading">
-        Meus <span className="services__subtitle">Serviços</span>
+        Meus <span>Serviços</span>
       </h2>
       <article className="service">
         <div className="service__row">
