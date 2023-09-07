@@ -112,6 +112,14 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
+
+  .services__images-computer img {
+    display: none;
+  }
+
+  .services__images {
+    background: none;
+  }
 }
 
 @media screen and (max-width: 774px) {
