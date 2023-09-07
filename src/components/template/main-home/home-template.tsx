@@ -11,6 +11,7 @@ export default function HomeTemplate() {
             <h1>
               Olá, Eu sou <span>Deniscley Marfran</span>
             </h1>
+
             <div className="home__text-animate">
               <h3>Full Stack Developer</h3>
               <p>

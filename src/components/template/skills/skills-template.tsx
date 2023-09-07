@@ -2,15 +2,14 @@ import "./skills-template.css";
 
 export default function SkillsTemplate() {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <h2 className="heading">
-        Minhas <span className="section__subtitle">Habilidades</span>
+        Minhas <span className="section__subtitle">Skills</span>
       </h2>
 
       <div className="skills__row">
         <div className="skills__column">
-          <h3 className="title">Habilidades de Front-End</h3>
-
+          <h3 className="title">Front-End</h3>
           <div className="skills__box">
             <div className="skills__content">
               <div className="skills__colum-image">
@@ -22,7 +21,6 @@ export default function SkillsTemplate() {
                     height={75}
                   />
                   <h3 style={{ marginBottom: "1rem" }}>HTML</h3>
-
                   <img
                     src="/images/skills/css.svg"
                     alt="HTML"
@@ -31,7 +29,6 @@ export default function SkillsTemplate() {
                   />
                   <h3 style={{ marginBottom: "1rem" }}>CSS</h3>
                 </div>
-
                 <div className="skills_img">
                   <img
                     src="/images/skills/javascript.svg"
@@ -40,7 +37,6 @@ export default function SkillsTemplate() {
                     height={75}
                   />
                   <h3 style={{ marginBottom: "1rem" }}>JavaScript</h3>
-
                   <img
                     src="/images/skills/typescript.svg"
                     alt="HTML"
@@ -49,7 +45,6 @@ export default function SkillsTemplate() {
                   />
                   <h3 style={{ marginBottom: "1rem" }}>TypeScript</h3>
                 </div>
-
                 <div className="skills_img">
                   <img
                     src="/images/skills/react.svg"
@@ -58,7 +53,6 @@ export default function SkillsTemplate() {
                     height={75}
                   />
                   <h3 style={{ marginBottom: "1rem" }}>React</h3>
-
                   <img
                     src="/images/skills/angular.svg"
                     alt="HTML"
@@ -67,7 +61,6 @@ export default function SkillsTemplate() {
                   />
                   <h3 style={{ marginBottom: "1rem" }}>Angular</h3>
                 </div>
-
                 <div className="skills_img">
                   <img
                     src="/images/skills/next-js.svg"
@@ -83,8 +76,7 @@ export default function SkillsTemplate() {
         </div>
 
         <div className="skills__column">
-          <h3 className="title">Habilidades de Back-End</h3>
-
+          <h3 className="title">Back-End</h3>
           <div className="skills__box">
             <div className="skills__content">
               <div className="skills__colum-image-back">
@@ -96,7 +88,6 @@ export default function SkillsTemplate() {
                     height={75}
                   />
                   <h3 style={{ marginBottom: "1rem" }}>.Net</h3>
-
                   <img
                     src="/images/skills/c4.svg"
                     alt="HTML"
@@ -105,7 +96,6 @@ export default function SkillsTemplate() {
                   />
                   <h3 style={{ marginBottom: "1rem" }}>C#</h3>
                 </div>
-
                 <div>
                   <img
                     src="/images/skills/microsoft-sql-server.svg"
@@ -114,7 +104,6 @@ export default function SkillsTemplate() {
                     height={75}
                   />
                   <h3 style={{ marginBottom: "1rem" }}>SQL Server</h3>
-
                   <img
                     src="/images/skills/mongodb.svg"
                     alt="HTML"
@@ -123,7 +112,6 @@ export default function SkillsTemplate() {
                   />
                   <h3 style={{ marginBottom: "1rem" }}>MongoDB</h3>
                 </div>
-
                 <div>
                   <img
                     src="/images/skills/postgresql.svg"
@@ -132,7 +120,6 @@ export default function SkillsTemplate() {
                     height={75}
                   />
                   <h3 style={{ marginBottom: "1rem" }}>PostgreSQL</h3>
-
                   <img
                     src="/images/skills/mysql.svg"
                     alt="HTML"
