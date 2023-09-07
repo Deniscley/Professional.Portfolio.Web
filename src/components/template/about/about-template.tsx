@@ -6,6 +6,7 @@ export default function AboutTemplate() {
       <h2 className="heading">
         Sobre <span>Mim</span>
       </h2>
+
       <div className="about__img">
         <img
           src="/images/deniscley_about.jpg"
@@ -23,9 +24,10 @@ export default function AboutTemplate() {
           voluptatem quis distinctio repudiandae nemo voluptatibus enim dicta
           expedita totam! Quam, distinctio!
         </p>
+
         <div className="about__btn-box">
           <a href="/contato" className="btn">
-            Vamos Conversar
+            Saiba Mais
           </a>
         </div>
       </div>

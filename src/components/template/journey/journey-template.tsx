@@ -7,6 +7,7 @@ export default function JourneyTemplate() {
       <h2 className="heading">
         Minha <span>Jornada</span>
       </h2>
+
       <div className="journey__row">
         <div className="journey__column">
           <h3 className="title">Educação</h3>
@@ -52,6 +53,7 @@ export default function JourneyTemplate() {
           </div>
         </div>
       </div>
+
       <div className="journey__img">
         <div className="journey__img-image">
           <img
