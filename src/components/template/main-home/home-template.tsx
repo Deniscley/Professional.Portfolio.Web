@@ -28,13 +28,25 @@ export default function HomeTemplate() {
               </div>
 
               <div className="home__sci">
-                <a href="" target="_blank" rel="noreferrer noopener">
+                <a
+                  href="https://www.linkedin.com/in/deniscleymarfran/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <BiLogoLinkedin />
                 </a>
-                <a href="" target="_blank" rel="noreferrer noopener">
+                <a
+                  href="https://github.com/Deniscley"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <BiLogoGithub />
                 </a>
-                <a href="" target="_blank" rel="noreferrer noopener">
+                <a
+                  href="mailto: deniscleymaf@gmail.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <AiOutlineMail />
                 </a>
               </div>
