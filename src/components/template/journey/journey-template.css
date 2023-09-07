@@ -105,3 +105,13 @@
   font-size: 1.6rem;
   padding-top: 0.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .journey__img {
+    background: none;
+  }
+
+  .journey__img-image img {
+    display: none;
+  }
+}

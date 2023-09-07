@@ -25,7 +25,7 @@ export default function AboutTemplate() {
         </p>
         <div className="about__btn-box">
           <a href="/contato" className="btn">
-            Saiba Mais
+            Vamos Conversar
           </a>
         </div>
       </div>
