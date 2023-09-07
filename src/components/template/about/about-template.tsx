@@ -24,8 +24,8 @@ export default function AboutTemplate() {
           expedita totam! Quam, distinctio!
         </p>
         <div className="about__btn-box">
-          <a href="" className="btn">
-            Leia Mais
+          <a href="/contato" className="btn">
+            Saiba Mais
           </a>
         </div>
       </div>

@@ -4,7 +4,7 @@
 }
 
 .portfolio__column {
-  margin-top: 20rem;
+  margin-top: 16rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
