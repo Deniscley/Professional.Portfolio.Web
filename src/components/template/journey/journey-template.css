@@ -1,12 +1,14 @@
 .journey {
+  padding-bottom: 6rem;
+}
+
+.journey__container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 5rem 18rem 5rem 19rem;
 }
 
 .journey__img {
-  margin-top: 10rem;
   width: 31%;
   aspect-ratio: 1/1;
   border-radius: 2rem;

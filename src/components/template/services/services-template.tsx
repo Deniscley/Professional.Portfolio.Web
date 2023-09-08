@@ -8,7 +8,7 @@ export default function ServicesTemplate() {
         Meus <span> Serviços</span>
       </h2>
 
-      <article className="service">
+      <article className="container service__container">
         <div className="service__row">
           <div className="service__column">
             <h3 className="title">Back-End</h3>

@@ -1,8 +1,11 @@
 .services {
+  padding-bottom: 6rem;
+}
+
+.service__container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 5rem 18rem 5rem 19rem;
 }
 
 .service__row {

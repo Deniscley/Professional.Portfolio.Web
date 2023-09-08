@@ -1,10 +1,13 @@
 .about {
+  background: var(--second-color);
+  padding-bottom: 6rem;
+}
+
+.about__container {
   gap: 2rem;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 5rem 8rem 5rem 8rem;
-  background: var(--second-color);
 }
 
 .about__img {

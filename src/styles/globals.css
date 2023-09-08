@@ -3,13 +3,11 @@
 *::after {
   margin: 0;
   padding: 0;
-  border: none;
-  outline: none;
+  border: 0;
+  outline: 0;
   list-style: none;
-  scroll-behavior: smooth;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: var(--font-poppins), sans-serif;
 }
 
 :root {
@@ -20,31 +18,54 @@
   --main-color: #81d679;
 
   --container-with-lg: 80%;
+  --container-width-md: 90%;
+  --container-width-sm: 95%;
 
   --transition: all 500ms ease;
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
-  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
+  font-family: var(--font-poppins), sans-serif;
   background: var(--primary-color);
   color: var(--text-color);
   line-height: 1.7;
   overflow-x: hidden;
-  margin-top: 5rem;
+  background-image: url(/images/bg-texture.png);
 }
 
 .container {
   width: var(--container-with-lg);
-  max-width: 1920px;
-  margin-inline: auto;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
 }
 
 section {
-  min-height: 100vh;
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+}
+
+section > h2 {
+  margin-bottom: 3rem;
 }
 
 .btn {
@@ -53,33 +74,16 @@ section {
   justify-content: center;
   align-items: center;
   width: 17rem;
-  font-weight: 100%;
   background: var(--main-color);
-  border: 0.2rem solid;
-  border-radius: 0.8rem;
-  font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   color: var(--primary-color);
   border: 0.2rem solid var(--main-color);
   border-radius: 0.8rem;
   font-size: 1.8rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  color: var(--primary-color);
   z-index: 1;
   overflow: hidden;
-  transition: 0.5s;
-}
-
-.heading {
-  font-size: 5rem;
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-span {
-  color: var(--main-color);
+  transition: var(--transition);
 }
 
 .btn-box {
@@ -113,4 +117,34 @@ span {
 
 .btn-box a:hover {
   color: var(--main-color);
+}
+
+.heading {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+span {
+  color: var(--main-color);
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }

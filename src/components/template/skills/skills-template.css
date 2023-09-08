@@ -1,8 +1,11 @@
 .skills {
-  padding: 5rem 18rem 5rem 19rem;
   background: var(--second-color);
-  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
 
+.skills__container {
+  text-align: center;
   align-items: center;
   flex-direction: column;
 }
