@@ -5,7 +5,7 @@ export default function ServicesTemplate() {
   return (
     <section className="services">
       <h2 className="heading">
-        Meus <span>Serviços</span>
+        Meus <span> Serviços</span>
       </h2>
 
       <article className="service">
