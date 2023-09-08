@@ -32,7 +32,7 @@
 }
 
 .btn-box-send a:hover {
-  color: var(--text-color);
+  color: var(--main-color);
 }
 
 .contact__option-icon {
@@ -57,7 +57,6 @@
 .contact__option:hover {
   background: var(--primary-color);
   border: 2px solid var(--main-color);
-  /* border-color: var(--main-color); */
 }
 
 .contact__option h2 {
@@ -80,7 +79,7 @@
 }
 
 .contact__option-icon {
-  font-size: 1.5rem;
+  font-size: 4rem;
   margin-bottom: 0.5rem;
 }
 
