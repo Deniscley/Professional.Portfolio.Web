@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 1024px) {
   .journey__img {
-    width: 62%;
+    width: 43%;
   }
 
   .journey__img-image img {
@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 600px) {
   .journey__img {
-    width: 92%;
+    width: 34%;
   }
 
   .journey__img-image img {
