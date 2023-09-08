@@ -69,6 +69,9 @@
 
 .services__images-center {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .services__images {
@@ -82,7 +85,7 @@
     var(--main-color),
     transparent
   );
-  display: inline-flex;
+  display: grid;
   place-items: center;
 }
 
@@ -113,12 +116,13 @@
     gap: 2rem;
   }
 
-  .services__images-computer img {
-    display: none;
+  .services__images {
+    width: 62%;
   }
 
-  .services__images {
-    background: none;
+  .services__images-computer img {
+    width: 40rem;
+    height: 40rem;
   }
 }
 
@@ -153,5 +157,14 @@
   .service {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .services__images {
+    width: 92%;
+  }
+
+  .services__images-computer img {
+    width: 20rem;
+    height: 20rem;
   }
 }

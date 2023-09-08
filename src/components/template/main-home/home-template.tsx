@@ -20,7 +20,7 @@ export default function HomeTemplate() {
                 desenvolvimento web.
               </p>
 
-              <div className="home__btn-box">
+              <div className="btn-box">
                 <a href="" className="btn">
                   <AiOutlineDownload />
                   <div>Download CV</div>

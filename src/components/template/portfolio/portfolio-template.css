@@ -14,10 +14,8 @@
   text-align: center;
 }
 
-.portfolio__btn-box .btn {
+.portfolio__button-center {
   display: inline-block;
-  width: 15rem;
-  padding: 0.8rem 0 0.8rem 0;
   text-align: center;
 }
 
