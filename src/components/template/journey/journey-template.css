@@ -109,10 +109,22 @@
 
 @media screen and (max-width: 1024px) {
   .journey__img {
-    background: none;
+    width: 62%;
   }
 
   .journey__img-image img {
-    display: none;
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .journey__img {
+    width: 92%;
+  }
+
+  .journey__img-image img {
+    width: 20rem;
+    height: 20rem;
   }
 }

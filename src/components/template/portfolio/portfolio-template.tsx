@@ -18,7 +18,7 @@ export default function PortfolioTemplate() {
             />
           </div>
           <h2>Denis Marlon - Nutrição & Exercício</h2>
-          <div className="portfolio__btn-box">
+          <div className="btn-box portfolio__button-center">
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/Deniscley/Nutrition.And.Exercise.Web"
@@ -50,7 +50,7 @@ export default function PortfolioTemplate() {
             />
           </div>
           <h2>Portfólio Deniscley Marfran</h2>
-          <div className="portfolio__btn-box">
+          <div className="btn-box portfolio__button-center">
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/Deniscley/Nutrition.And.Exercise.Web"
