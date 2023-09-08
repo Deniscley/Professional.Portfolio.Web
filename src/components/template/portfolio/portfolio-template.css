@@ -1,13 +1,16 @@
 .portfolio {
+  background: var(--second-color);
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+
+.portfolio__container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 5rem 18rem 5rem 19rem;
-  background: var(--second-color);
 }
 
 .portfolio__column {
-  margin-top: 16rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
@@ -35,11 +38,6 @@
 .portfolio__item-image img {
   border-radius: 1.5rem;
   overflow: hidden;
-}
-
-.portfolio__item h2 {
-  margin: 1.2rem 0 2rem;
-  font-size: 1.6rem;
 }
 
 .portfolio__item-cta {
