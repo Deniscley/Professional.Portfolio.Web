@@ -1,13 +1,12 @@
 .skills {
-  background: var(--second-color);
-  padding-bottom: 6rem;
   padding-top: 6rem;
+  padding-bottom: 6rem;
+  background: var(--second-color);
+  background-image: url(/images/bg-texture.png);
 }
 
 .skills__container {
   text-align: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .skills__row {

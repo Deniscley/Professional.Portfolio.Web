@@ -16,7 +16,6 @@ export default function ContactTemplate() {
           <article className="contact__option">
             <MdOutlineMailOutline className="contact__option-icon" />
             <h2>Email</h2>
-            <h5>Email para Contato</h5>
             <a
               href="mailto:deniscleymaf@outlook.com"
               target="_blank"
@@ -28,7 +27,6 @@ export default function ContactTemplate() {
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h2>Messenger</h2>
-            <h5>Deniscley Marfran</h5>
             <a
               href="https://m.me/deniscley.marfran/"
               target="_blank"
@@ -40,7 +38,6 @@ export default function ContactTemplate() {
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h2>Whatsapp</h2>
-            <h5>+55 (35) XXXX-XXXX</h5>
             <a
               href="https://wa.me/553598158860"
               target="_blank"
