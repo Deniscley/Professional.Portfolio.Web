@@ -81,8 +81,8 @@ export default function ServicesTemplate() {
               <img
                 src="/images/servico_computer.jpg"
                 alt="Service Image"
-                width={480}
-                height={480}
+                width={465}
+                height={465}
               />
             </div>
           </div>
