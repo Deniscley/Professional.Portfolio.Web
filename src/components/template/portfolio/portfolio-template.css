@@ -1,9 +1,9 @@
 .portfolio {
-  padding: 5rem 18rem 5rem 19rem;
-  background: var(--second-color);
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 5rem 18rem 5rem 19rem;
+  background: var(--second-color);
 }
 
 .portfolio__column {
