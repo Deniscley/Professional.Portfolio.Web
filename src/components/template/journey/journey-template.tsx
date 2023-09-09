@@ -30,9 +30,7 @@ export default function JourneyTemplate() {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="journey__column">
             <h3 className="title">Experiência</h3>
             <div className="journey__box">
               <div className="journey__content">
@@ -51,6 +49,17 @@ export default function JourneyTemplate() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className="journey__column">
+            <div className="journey-background-image">
+              <img
+                src="/images/deniscley_image.png"
+                alt="Imagem Deniscley Formal"
+                width={600}
+                height={800}
+              />
             </div>
           </div>
         </div>
