@@ -67,7 +67,7 @@ export default function JourneyTemplate() {
         {/* <div className="journey__img">
           <div className="journey__img-image">
             <img
-              src="/images/engin-akyurt.jpg"
+              src="/images/coding.jpg"
               alt="Computer Image"
               width={465}
               height={465}

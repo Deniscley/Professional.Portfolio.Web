@@ -72,9 +72,7 @@ export default function SkillsTemplate() {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="skills__column">
             <h3 className="title">Back-End</h3>
             <div className="skills__content">
               <div className="skills__colum-image-back">
@@ -129,19 +127,22 @@ export default function SkillsTemplate() {
               </div>
             </div>
           </div>
-        </div>
-        {/* <div className="skills__images-center">
-          <div className="skills__images">
-            <div className="skills__images-tools">
-              <img
-                src="/images/coding.jpg"
-                alt="Computer Image"
-                width={465}
-                height={465}
-              />
+
+          <div className="skills__column">
+            <div className="skills__images-center">
+              <div className="skills__images">
+                <div className="skills__images-tools">
+                  <img
+                    src="/images/engin-akyurt.jpg"
+                    alt="Computer Image"
+                    width={465}
+                    height={465}
+                  />
+                </div>
+              </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
