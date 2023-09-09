@@ -75,7 +75,7 @@ export default function ServicesTemplate() {
             </ul>
           </div>
         </div>
-        <div className="services__images-center">
+        {/* <div className="services__images-center">
           <div className="services__images">
             <div className="services__images-computer">
               <img
@@ -86,7 +86,7 @@ export default function ServicesTemplate() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </article>
     </section>
   );

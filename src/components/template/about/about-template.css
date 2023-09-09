@@ -1,6 +1,4 @@
 .about {
-  padding-top: 6rem;
-  padding-bottom: 30rem;
   background: var(--second-color);
   background-image: url(/images/bg-texture.png);
 }
