@@ -1,11 +1,11 @@
-import { AiOutlineMail } from "react-icons/ai";
-import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 import "./footer.css";
+import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { RiTwitterFill } from "react-icons/ri";
 
 export default function Footer() {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="/" className="footer__logo">
         DENISCLEY MARFRAN
       </a>
 
@@ -34,14 +34,14 @@ export default function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/deniscleymarfran/">
-          <BiLogoLinkedin />
+        <a href="https://www.facebook.com/deniscley.marfran">
+          <BsFacebook />
         </a>
-        <a href="https://github.com/Deniscley">
-          <BiLogoGithub />
+        <a href="https://www.instagram.com/deniscleymarfran/">
+          <BsInstagram />
         </a>
-        <a href="mailto: deniscleymaf@gmail.com">
-          <AiOutlineMail />
+        <a href="https://twitter.com/DeniscleyMAF">
+          <RiTwitterFill />
         </a>
       </div>
 
