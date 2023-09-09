@@ -1,7 +1,3 @@
-.journey {
-  padding-bottom: 6rem;
-}
-
 .journey__container {
   display: flex;
   align-items: center;
@@ -72,7 +68,7 @@
 
 .journey__content .content {
   position: relative;
-  padding: 1.5rem;
+  padding: 1.8rem;
   border: 0.2rem solid var(--main-color);
   border-radius: 0.6rem;
   margin-bottom: 2rem;

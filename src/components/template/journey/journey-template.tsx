@@ -55,7 +55,7 @@ export default function JourneyTemplate() {
           </div>
         </div>
 
-        <div className="journey__img">
+        {/* <div className="journey__img">
           <div className="journey__img-image">
             <img
               src="/images/engin-akyurt.jpg"
@@ -64,7 +64,7 @@ export default function JourneyTemplate() {
               height={465}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
