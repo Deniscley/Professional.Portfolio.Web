@@ -115,18 +115,69 @@
   transition: var(--transition);
 }
 
-@media screen and (max-width: 1024px) {
-  .journey__img {
-    width: 43%;
+@media screen and (max-width: 1720px) {
+  .journey-background-image {
+    width: 55rem;
+    height: 67rem;
   }
 
-  .journey__img-image img {
+  .journey-background-image img {
+    width: 55rem;
+    height: 67rem;
+  }
+}
+
+@media screen and (max-width: 1585px) {
+  .journey-background-image {
+    width: 45rem;
+    height: 57rem;
+  }
+
+  .journey-background-image img {
+    width: 45rem;
+    height: 57rem;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .journey-background-image {
     width: 40rem;
+    height: 50rem;
+  }
+
+  .journey-background-image img {
+    width: 40rem;
+    height: 50rem;
+  }
+}
+
+@media screen and (max-width: 1187px) {
+  .journey-background-image {
+    width: 75rem;
+    height: 42rem;
+  }
+
+  .journey-background-image img {
+    width: 36rem;
+    height: 42rem;
+
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .journey-background-image {
+    width: 55rem;
+    height: 40rem;
+  }
+
+  .journey-background-image img {
+    width: 35rem;
     height: 40rem;
   }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .journey__img {
     width: 34%;
   }
@@ -135,4 +186,4 @@
     width: 20rem;
     height: 20rem;
   }
-}
+} */

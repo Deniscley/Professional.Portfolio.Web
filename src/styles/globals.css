@@ -45,8 +45,8 @@ body {
 .container {
   width: var(--container-with-lg);
   margin: 0 auto;
-  /* max-width: 1920px;
-  margin-inline: auto; */
+  max-width: 1920px;
+  /* margin-inline: auto; */
 }
 
 h1,
