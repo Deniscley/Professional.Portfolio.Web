@@ -65,7 +65,7 @@
 
 .contact__option a {
   font-size: 1.4rem;
-  color: var(--second-color);
+  color: var(--text-color);
   display: inline-block;
   margin-top: 0.8rem;
 }
