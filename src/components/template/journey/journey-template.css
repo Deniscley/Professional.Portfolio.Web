@@ -33,7 +33,7 @@
 .journey__row {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 15rem;
 }
 
 .journey__column {
@@ -104,6 +104,15 @@
 .journey__content .content p {
   font-size: 1.6rem;
   padding-top: 0.5rem;
+}
+
+.journey-background-image {
+  width: 60rem;
+  height: 80rem;
+  background: linear-gradient(75deg, var(--main-color), transparent);
+  border-radius: 50% 10% 10% 0;
+  position: absolute;
+  transition: var(--transition);
 }
 
 @media screen and (max-width: 1024px) {
