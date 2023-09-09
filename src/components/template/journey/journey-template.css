@@ -128,40 +128,64 @@
 }
 
 @media screen and (max-width: 1585px) {
+  .journey__row {
+    gap: 6rem;
+  }
+
   .journey-background-image {
-    width: 45rem;
-    height: 57rem;
+    width: 50rem;
+    height: 67rem;
   }
 
   .journey-background-image img {
-    width: 45rem;
-    height: 57rem;
+    width: 50rem;
+    height: 67rem;
   }
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1260px) {
+  .journey__row {
+    gap: 5rem;
+  }
+
   .journey-background-image {
-    width: 40rem;
-    height: 50rem;
+    width: 45rem;
+    height: 70rem;
   }
 
   .journey-background-image img {
-    width: 40rem;
-    height: 50rem;
+    width: 45rem;
+    height: 70rem;
   }
 }
 
 @media screen and (max-width: 1187px) {
+  .journey__row {
+    gap: 4rem;
+  }
+
   .journey-background-image {
-    width: 75rem;
-    height: 42rem;
+    width: 46rem;
+    height: 68rem;
   }
 
   .journey-background-image img {
-    width: 36rem;
-    height: 42rem;
+    width: 43rem;
+    height: 68rem;
 
     object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .journey-background-image {
+    width: 65rem;
+    height: 43rem;
+  }
+
+  .journey-background-image img {
+    width: 35rem;
+    height: 43rem;
   }
 }
 
