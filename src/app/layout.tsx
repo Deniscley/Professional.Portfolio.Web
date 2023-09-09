@@ -3,6 +3,7 @@ import Navbar from "@/components/layout/navbar/navbar";
 import type { Metadata } from "next";
 import "../styles/globals.css";
 import { poppins } from "@/assets/fonts/fonts";
+import Footer from "@/components/footer/footer";
 
 export const metadata: Metadata = {
   title: "Deniscley Marfran - Portifólio Profissional",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body suppressHydrationWarning={true}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
