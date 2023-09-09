@@ -41,9 +41,7 @@ export default function ServicesTemplate() {
                 </li>
               </div>
             </ul>
-          </div>
 
-          <div className="service__column">
             <h3 className="title">Front-End</h3>
             <ul className="service__list">
               <div className="service__content">
@@ -74,19 +72,22 @@ export default function ServicesTemplate() {
               </div>
             </ul>
           </div>
-        </div>
-        {/* <div className="services__images-center">
-          <div className="services__images">
-            <div className="services__images-computer">
-              <img
-                src="/images/servico_computer.jpg"
-                alt="Service Image"
-                width={465}
-                height={465}
-              />
+
+          <div className="service__column">
+            <div className="services__images-center">
+              <div className="services__images">
+                <div className="services__images-computer">
+                  <img
+                    src="/images/coding.jpg"
+                    alt="Service Image"
+                    width={465}
+                    height={465}
+                  />
+                </div>
+              </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </article>
     </section>
   );
