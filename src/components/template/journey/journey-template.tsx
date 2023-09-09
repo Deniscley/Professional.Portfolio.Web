@@ -57,8 +57,8 @@ export default function JourneyTemplate() {
               <img
                 src="/images/deniscley_image.png"
                 alt="Imagem Deniscley Formal"
-                width={600}
-                height={800}
+                width={580}
+                height={730}
               />
             </div>
           </div>

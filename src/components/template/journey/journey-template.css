@@ -108,7 +108,7 @@
 
 .journey-background-image {
   width: 60rem;
-  height: 80rem;
+  height: 73rem;
   background: linear-gradient(75deg, var(--main-color), transparent);
   border-radius: 50% 10% 10% 0;
   position: absolute;
@@ -167,7 +167,19 @@
 
 @media screen and (max-width: 830px) {
   .journey-background-image {
-    width: 55rem;
+    width: 60rem;
+    height: 40rem;
+  }
+
+  .journey-background-image img {
+    width: 30rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .journey-background-image {
+    width: 35rem;
     height: 40rem;
   }
 
@@ -177,13 +189,38 @@
   }
 }
 
-/* @media screen and (max-width: 600px) {
-  .journey__img {
-    width: 34%;
+@media screen and (max-width: 540px) {
+  .journey-background-image {
+    width: 36rem;
+    height: 35rem;
   }
 
-  .journey__img-image img {
-    width: 20rem;
-    height: 20rem;
+  .journey-background-image img {
+    width: 30rem;
+    height: 35rem;
   }
-} */
+}
+
+@media screen and (max-width: 360px) {
+  .journey-background-image {
+    width: 30rem;
+    height: 35rem;
+  }
+
+  .journey-background-image img {
+    width: 20rem;
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .journey-background-image {
+    width: 23rem;
+    height: 35rem;
+  }
+
+  .journey-background-image img {
+    width: 20rem;
+    height: 35rem;
+  }
+}
