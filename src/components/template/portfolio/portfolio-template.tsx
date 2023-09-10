@@ -2,7 +2,7 @@ import "./portfolio-template.css";
 
 export default function PortfolioTemplate() {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio">
       <h2 className="heading">
         Meu <span>Portfólio</span>
       </h2>

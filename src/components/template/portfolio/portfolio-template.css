@@ -58,3 +58,10 @@
     height: 20rem;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .portfolio__item-image img {
+    width: 25rem;
+    height: 15rem;
+  }
+}

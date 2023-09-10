@@ -5,6 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { MdOutlineClose } from "react-icons/md";
 import "./navbar.css";
 import { links } from "../../../state/routes/routes";
+import { yellowtail } from "@/assets/fonts/fonts";
 
 export default function Navbar() {
   const isActive = usePathname();
@@ -16,7 +17,7 @@ export default function Navbar() {
     <nav>
       <div className="container nav__container">
         <Link href="/" className="logo" onClick={() => setIsNavShowing(false)}>
-          Deniscley Marfran.
+          <div className={yellowtail.className}>DENISCLEY MARFRAN.</div>
         </Link>
         <ul
           //   className="nav__links"

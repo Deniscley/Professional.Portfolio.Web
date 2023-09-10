@@ -1,12 +1,13 @@
 import "./footer.css";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { RiTwitterFill } from "react-icons/ri";
+import { yellowtail } from "@/assets/fonts/fonts";
 
 export default function Footer() {
   return (
     <footer>
       <a href="/" className="footer__logo">
-        DENISCLEY MARFRAN
+        <div className={yellowtail.className}>DENISCLEY MARFRAN</div>
       </a>
 
       <ul className="permalinks">
