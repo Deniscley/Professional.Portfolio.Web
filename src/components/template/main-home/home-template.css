@@ -152,3 +152,11 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .home__image img {
+    border-radius: 10rem 0 5rem 0;
+    width: 26rem;
+    height: 30rem;
+  }
+}
