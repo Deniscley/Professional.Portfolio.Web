@@ -3,7 +3,7 @@ import "./services-template.css";
 
 export default function ServicesTemplate() {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <h2 className="heading">
         Meus <span> Serviços</span>
       </h2>

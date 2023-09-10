@@ -4,7 +4,7 @@ import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
 
 export default function HomeTemplate() {
   return (
-    <section className="home">
+    <section className="home" id="home">
       <div className="container home__container">
         <div className="home__left">
           <h1>
