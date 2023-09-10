@@ -73,7 +73,9 @@ export default function SkillsTemplate() {
               </div>
             </div>
 
-            <h3 className="title">Back-End</h3>
+            <h3 className="title" style={{ marginTop: "1rem" }}>
+              Back-End
+            </h3>
             <div className="skills__content">
               <div className="skills__colum-image-back">
                 <div>

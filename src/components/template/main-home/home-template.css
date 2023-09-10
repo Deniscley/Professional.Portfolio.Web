@@ -108,11 +108,16 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1650px) {
-  /* .home {
-    padding: 10rem 0 5rem 0;
-  } */
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: var(--second-color);
+}
 
+@media screen and (max-width: 1650px) {
   .home__image img {
     border-radius: 0 0 5rem 0;
     width: 40rem;
@@ -141,5 +146,9 @@
     border-radius: 10rem 0 5rem 0;
     width: 36rem;
     height: 40rem;
+  }
+
+  .scroll__down {
+    display: none;
   }
 }

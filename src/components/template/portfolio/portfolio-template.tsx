@@ -29,14 +29,14 @@ export default function PortfolioTemplate() {
                 >
                   Github
                 </a>
-                <a
+                {/* <a
                   href=""
                   className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   Site
-                </a>
+                </a> */}
               </div>
             </div>
           </article>
@@ -61,14 +61,14 @@ export default function PortfolioTemplate() {
                 >
                   Github
                 </a>
-                <a
+                {/* <a
                   href=""
                   className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   Site
-                </a>
+                </a> */}
               </div>
             </div>
           </article>
