@@ -20,7 +20,11 @@ export default function HomeTemplate() {
             </p>
 
             <div className="btn-box">
-              <a href="" className="btn">
+              <a
+                href="/images/CurriculumVitae_Deniscley.pdf"
+                download="CurriculumVitae_Deniscley"
+                className="btn"
+              >
                 <AiOutlineDownload />
                 <div>Download CV</div>
               </a>
@@ -61,6 +65,10 @@ export default function HomeTemplate() {
               height={595}
             />
           </div>
+
+          <a href="/contato" className="scroll__down">
+            SCROLL DOWN
+          </a>
         </div>
       </div>
     </section>

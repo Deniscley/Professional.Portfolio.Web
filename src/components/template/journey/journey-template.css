@@ -4,32 +4,6 @@
   flex-direction: column;
 }
 
-.journey__img {
-  margin-top: 6rem;
-  width: 31%;
-  aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--main-color),
-    transparent
-  );
-  display: grid;
-  place-items: center;
-}
-
-.journey__img-image {
-  border-radius: 2rem;
-  overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
-}
-
-.journey__img-image:hover {
-  transform: rotate(0);
-}
-
 .journey__row {
   display: flex;
   flex-wrap: wrap;
