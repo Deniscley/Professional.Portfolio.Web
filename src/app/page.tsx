@@ -1,4 +1,5 @@
 import AboutTemplate from "@/components/template/about/about-template";
+import ClientsTemplate from "@/components/template/companies/clients-Template";
 import ContactTemplate from "@/components/template/contact/contact-template";
 import JourneyTemplate from "@/components/template/journey/journey-template";
 import HomeTemplate from "@/components/template/main-home/home-template";
@@ -15,6 +16,7 @@ export default function Home() {
       <SkillsTemplate />
       <ServicesTemplate />
       <PortfolioTemplate />
+      <ClientsTemplate />
       <ContactTemplate />
     </>
   );
