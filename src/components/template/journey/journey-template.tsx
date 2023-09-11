@@ -39,7 +39,7 @@ export default function JourneyTemplate() {
                     <BiSolidCalendar />
                     <a> 2019 - 2023</a>
                   </div>
-                  <h3>Squadra Tecnologia</h3>
+                  <h3>Squadra Digital</h3>
                   <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Dolores maxime architecto voluptas facere, officia

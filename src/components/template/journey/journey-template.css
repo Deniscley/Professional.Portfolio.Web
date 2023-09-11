@@ -154,24 +154,24 @@
 @media screen and (max-width: 912px) {
   .journey-background-image {
     width: 65rem;
-    height: 43rem;
+    height: 35rem;
   }
 
   .journey-background-image img {
-    width: 35rem;
-    height: 43rem;
+    width: 30rem;
+    height: 35rem;
   }
 }
 
 @media screen and (max-width: 830px) {
   .journey-background-image {
     width: 60rem;
-    height: 40rem;
+    height: 32rem;
   }
 
   .journey-background-image img {
-    width: 30rem;
-    height: 40rem;
+    width: 28rem;
+    height: 32rem;
   }
 }
 
