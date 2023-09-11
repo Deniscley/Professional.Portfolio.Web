@@ -153,10 +153,20 @@
   }
 }
 
+@media screen and (max-width: 360px) {
+  .home__image img {
+    width: 32rem;
+    height: 34rem;
+  }
+}
+
 @media screen and (max-width: 280px) {
   .home__image img {
-    border-radius: 10rem 0 5rem 0;
     width: 26rem;
     height: 30rem;
+  }
+
+  .home__rigth {
+    place-items: initial;
   }
 }
