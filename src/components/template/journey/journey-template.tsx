@@ -57,23 +57,12 @@ export default function JourneyTemplate() {
               <img
                 src="/images/deniscley_image.png"
                 alt="Imagem Deniscley Formal"
-                width={580}
-                height={730}
+                width={570}
+                height={715}
               />
             </div>
           </div>
         </div>
-
-        {/* <div className="journey__img">
-          <div className="journey__img-image">
-            <img
-              src="/images/coding.jpg"
-              alt="Computer Image"
-              width={465}
-              height={465}
-            />
-          </div>
-        </div> */}
       </div>
     </section>
   );
