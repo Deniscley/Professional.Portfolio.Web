@@ -1,5 +1,91 @@
 .clients__subtitle {
   text-align: center;
   font-size: 1.6rem;
-  margin-bottom: 8rem;
+  margin-bottom: 13rem;
+}
+
+.container.clients__container {
+  width: 40%;
+  padding-bottom: 4rem;
+}
+
+.clients__client {
+  background: var(--second-color);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.clients__client img {
+  border-radius: 1.5rem;
+  border: 0.5rem solid var(--main-color);
+}
+
+.clients__client-name {
+  font-size: 1.6rem;
+  color: var(--text-color);
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--main-color);
+}
+
+@media screen and (max-width: 1365px) {
+  .companies__container {
+    width: 60%;
+  }
+
+  .clients__client img {
+    width: 40rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .companies__container {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .companies__container {
+    width: 60%;
+  }
+
+  .clients__client img {
+    width: 26rem;
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .companies__container {
+    width: 80%;
+  }
+
+  .clients__client img {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .clients__client img {
+    width: 17rem;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .clients__client img {
+    width: 10rem;
+    height: 6rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .clients__client img {
+    width: 7rem;
+    height: 4rem;
+  }
 }
