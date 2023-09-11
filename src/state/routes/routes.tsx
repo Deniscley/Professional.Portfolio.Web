@@ -24,8 +24,8 @@ export const links = [
     path: "/portfolio",
   },
   {
-    name: "Clientes",
-    path: "/clientes",
+    name: "Experiência",
+    path: "/experiencia",
   },
   {
     name: "Contato",
