@@ -21,7 +21,7 @@ export default function ContactTemplate() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Envie uma mensagem
+              Envie uma Mensagem
             </a>
           </article>
           <article className="contact__option">
@@ -32,7 +32,7 @@ export default function ContactTemplate() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Envie uma mensagem
+              Envie uma Mensagem
             </a>
           </article>
           <article className="contact__option">
@@ -43,7 +43,7 @@ export default function ContactTemplate() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Envie uma mensagem
+              Envie uma Mensagem
             </a>
           </article>
         </div>
