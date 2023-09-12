@@ -61,8 +61,14 @@
 }
 
 @media screen and (max-width: 280px) {
+  .portfolio__button-center {
+    display: contents;
+  }
+  .portfolio__item {
+    width: 26rem;
+  }
   .portfolio__item-image img {
-    width: 25rem;
-    height: 15rem;
+    width: 18rem;
+    height: 12rem;
   }
 }
