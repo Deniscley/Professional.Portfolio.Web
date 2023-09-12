@@ -76,7 +76,7 @@ section > h2 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 17rem;
+  width: 15rem;
   background: var(--main-color);
   font-weight: 600;
   letter-spacing: 0.1rem;
@@ -94,7 +94,7 @@ section > h2 {
   display: flex;
   justify-content: space-between;
   width: 34.5rem;
-  height: 5rem;
+  height: 4.5rem;
 }
 
 .btn-box .btn:nth-child(2) {

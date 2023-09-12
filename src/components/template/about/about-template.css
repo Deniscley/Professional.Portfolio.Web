@@ -54,9 +54,12 @@
 }
 
 .about__btn-box .btn {
-  display: inline-block;
-  width: 15rem;
-  padding: 0.8rem 0 0.8rem 0;
+  width: 18rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.about__btn-box .btn div {
+  margin-bottom: 0.2rem;
 }
 
 .about__btn-box .btn::before {

@@ -1,3 +1,4 @@
+import { AiOutlineDownload } from "react-icons/ai";
 import "./about-template.css";
 
 export default function AboutTemplate() {
@@ -27,8 +28,13 @@ export default function AboutTemplate() {
           </p>
 
           <div className="about__btn-box">
-            <a href="/contato" className="btn">
-              Saiba Mais
+            <a
+              href="/images/CurriculumVitae_Deniscley.pdf"
+              download="CurriculumVitae_Deniscley"
+              className="btn"
+            >
+              <AiOutlineDownload />
+              <div>Download CV</div>
             </a>
           </div>
         </div>
