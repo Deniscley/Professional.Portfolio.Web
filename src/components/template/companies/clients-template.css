@@ -32,7 +32,7 @@
 }
 
 @media screen and (max-width: 1365px) {
-  .companies__container {
+  .clients__container {
     width: 60%;
   }
 
@@ -43,25 +43,8 @@
 }
 
 @media screen and (max-width: 1085px) {
-  .companies__container {
+  .clients__container {
     width: 55%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .companies__container {
-    width: 60%;
-  }
-
-  .clients__client img {
-    width: 26rem;
-    height: 16rem;
-  }
-}
-
-@media screen and (max-width: 725px) {
-  .companies__container {
-    width: 80%;
   }
 
   .clients__client img {
@@ -69,16 +52,48 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .clients__container {
+    width: 60%;
+  }
+
+  .clients__client img {
+    width: 30rem;
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .clients__container {
+    width: 70%;
+  }
+
+  .clients__client img {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .clients__container {
+    width: 85%;
+  }
+
+  .clients__client img {
+    width: 18rem;
+    height: 12rem;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .clients__client img {
-    width: 17rem;
+    width: 13rem;
     height: 10rem;
   }
 }
 
 @media screen and (max-width: 414px) {
   .clients__client img {
-    width: 10rem;
+    width: 8rem;
     height: 6rem;
   }
 }
