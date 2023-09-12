@@ -92,19 +92,39 @@ nav {
     cursor: pointer;
   }
 
-  /* .nav__links {
+  .nav__toggle-btn svg {
+    color: var(--text-color);
+  }
+
+  .nav__links {
     position: absolute;
     top: 100%;
     right: 0;
     flex-direction: column;
     gap: 0;
     perspective: 25rem;
-  } */
+  }
 
-  /* .show__nav {
+  .nav__links li a {
+    background-color: var(--second-color);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 7rem 2.5rem 7rem;
+    margin-bottom: -1rem;
+  }
+
+  .active-nav::after {
+    width: calc(40%);
+  }
+
+  .show__nav {
     padding-top: 0rem;
     display: flex;
-  } */
+    align-items: stretch;
+  }
 
   .hide__nav {
     padding-top: 0rem;

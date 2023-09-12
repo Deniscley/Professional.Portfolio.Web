@@ -46,7 +46,7 @@ export default function PortfolioTemplate() {
               <img
                 src="/images/portfolio_deniscley.jpg"
                 alt="Portfolio Image2"
-                width={520}
+                width={540}
                 height={370}
               />
             </div>
