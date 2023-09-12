@@ -1,13 +1,8 @@
 "use client";
 import "./clients-template.css";
 import { clients } from "./../../../state/constants/constants";
-
-// import Swiper core and required modules
 import { Pagination } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -28,7 +23,6 @@ export default function ClientsTemplate() {
 
       <Swiper
         className="container clients__container"
-        // install Swiper modules
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
