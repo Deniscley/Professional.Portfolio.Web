@@ -20,13 +20,8 @@ export default function HomeTemplate() {
             </p>
 
             <div className="btn-box">
-              <a
-                href="/images/CurriculumVitae_Deniscley.pdf"
-                download="CurriculumVitae_Deniscley"
-                className="btn"
-              >
-                <AiOutlineDownload />
-                <div>Download CV</div>
+              <a href="/sobre" className="btn">
+                Saiba Mais
               </a>
             </div>
 
