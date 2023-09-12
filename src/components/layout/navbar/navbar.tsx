@@ -20,7 +20,6 @@ export default function Navbar() {
           <div className={yellowtail.className}>DENISCLEY MARFRAN.</div>
         </Link>
         <ul
-          //   className="nav__links"
           className={`nav__links ${isNavShowing ? "show__nav" : "hide__nav"}`}
         >
           {links.map(({ name, path }, index) => {
