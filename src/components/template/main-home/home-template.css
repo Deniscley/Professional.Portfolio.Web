@@ -121,6 +121,31 @@
   color: var(--main-color);
 }
 
+.home__btn-box .btn {
+  width: 18rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.home__btn-box .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--second-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.home__btn-box .btn:hover::before {
+  width: 100%;
+}
+
+.home__btn-box a:hover {
+  color: var(--main-color);
+}
+
 @media screen and (max-width: 1650px) {
   .home__image img {
     border-radius: 0 0 5rem 0;

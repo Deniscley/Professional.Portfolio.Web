@@ -47,6 +47,32 @@
   justify-content: center;
 }
 
+.portfolio__btn-box .btn {
+  width: 16rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio__btn-box .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--second-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.portfolio__btn-box .btn:hover::before {
+  width: 100%;
+}
+
+.portfolio__btn-box a:hover {
+  color: var(--main-color);
+}
+
 @media screen and (max-width: 1326px) {
   .portfolio__column {
     grid-template-columns: 1fr;

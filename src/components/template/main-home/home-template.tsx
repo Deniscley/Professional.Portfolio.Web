@@ -19,7 +19,7 @@ export default function HomeTemplate() {
               web.
             </p>
 
-            <div className="btn-box">
+            <div className="home__btn-box">
               <a href="/contato" className="btn">
                 Saiba Mais
               </a>
