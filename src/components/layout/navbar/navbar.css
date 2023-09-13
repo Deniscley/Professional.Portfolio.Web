@@ -29,6 +29,7 @@ nav {
 .nav__toggle-btn {
   display: none;
   margin-top: 1rem;
+  color: var(--text-color);
 }
 
 .nav__container {
@@ -81,13 +82,18 @@ nav {
   border-radius: 2rem;
 }
 
-.nav__toggle-btn {
+.light-mode__color-icon div {
   color: var(--text-color);
+  margin-top: 1.2rem;
+}
+
+.light-mode__color-icon div:hover {
+  color: var(--main-colory);
 }
 
 @media screen and (max-width: 1280px) {
   .logo {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
