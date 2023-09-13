@@ -117,6 +117,10 @@
   color: var(--second-color);
 }
 
+.scroll__down:hover {
+  color: var(--main-color);
+}
+
 @media screen and (max-width: 1650px) {
   .home__image img {
     border-radius: 0 0 5rem 0;

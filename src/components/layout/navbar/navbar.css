@@ -1,5 +1,5 @@
 nav {
-  height: 8rem;
+  height: 5rem;
   width: 100vw;
   background: transparent;
   display: grid;
@@ -22,12 +22,13 @@ nav {
   font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 600;
-  padding-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 /* Só aparece em telas médias e pequenas */
 .nav__toggle-btn {
   display: none;
+  margin-top: 1rem;
 }
 
 .nav__container {
@@ -44,7 +45,7 @@ nav {
   display: flex;
   gap: 2rem;
   align-items: center;
-  padding-bottom: 2rem;
+  margin-top: 0.7rem;
 }
 
 .nav__links div {
