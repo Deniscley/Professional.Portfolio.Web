@@ -1,6 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import "./about-template.css";
-import { FaAward } from "react-icons/fa";
+import { FaAward, FaGraduationCap } from "react-icons/fa";
 
 export default function AboutTemplate() {
   return (
@@ -20,17 +20,20 @@ export default function AboutTemplate() {
           <div className="about__circle-spin" />
         </div>
         <h3>Full Stack Developer</h3>
-        <div>
-          <article className="'about_card">
-            <FaAward className="about_icon" />
-            <h5>Experience</h5>
-            <small>4+ Anos Trabalhando</small>
+        <div className="about__cards">
+          <article className="about__card">
+            <FaGraduationCap className="about__icon" />
+            <h5>Graduação</h5>
+            <small>
+              Ciência da Computação
+              <br />
+            </small>
+            <small>Universidade Federal de Lavras - UFLA</small>
           </article>
-        </div>
-        <div>
-          <article className="'about_card">
-            <FaAward className="about_icon" />
-            <h5>Experience</h5>
+
+          <article className="about__card">
+            <FaAward className="about__icon" />
+            <h5>Experiência</h5>
             <small>4+ Anos Trabalhando</small>
           </article>
         </div>
