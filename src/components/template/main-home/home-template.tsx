@@ -20,7 +20,7 @@ export default function HomeTemplate() {
             </p>
 
             <div className="btn-box">
-              <a href="/sobre" className="btn">
+              <a href="/contato" className="btn">
                 Saiba Mais
               </a>
             </div>

@@ -84,7 +84,17 @@ nav {
   color: var(--text-color);
 }
 
+@media screen and (max-width: 1280px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
+  .logo {
+    font-size: 2.6rem;
+  }
+
   .nav__toggle-btn {
     display: inline-block;
     background: transparent;
@@ -129,5 +139,11 @@ nav {
   .hide__nav {
     padding-top: 0rem;
     display: none;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .logo {
+    font-size: 2rem;
   }
 }
