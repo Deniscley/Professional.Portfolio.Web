@@ -21,15 +21,16 @@ export default function PortfolioTemplate() {
             <h2>Denis Marlon - Nutrição & Exercício</h2>
             <div className="btn-box portfolio__button-center">
               <div className="portfolio__item-button">
-                <a
-                  href="https://github.com/Deniscley/Nutrition.And.Exercise.Web"
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Github
-                </a>
-                {/* <a
+                <div className="portfolio__btn-box">
+                  <a
+                    href="https://github.com/Deniscley/Nutrition.And.Exercise.Web"
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Github
+                  </a>
+                  {/* <a
                   href=""
                   className="btn btn-primary"
                   target="_blank"
@@ -37,6 +38,7 @@ export default function PortfolioTemplate() {
                 >
                   Site
                 </a> */}
+                </div>
               </div>
             </div>
           </article>
@@ -53,22 +55,24 @@ export default function PortfolioTemplate() {
             <h2>Portfólio Deniscley Marfran</h2>
             <div className="btn-box portfolio__button-center">
               <div className="portfolio__item-button">
-                <a
-                  href="https://github.com/Deniscley/Nutrition.And.Exercise.Web"
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Github
-                </a>
-                {/* <a
-                  href=""
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Site
-                </a> */}
+                <div className="portfolio__btn-box">
+                  <a
+                    href="https://github.com/Deniscley/Nutrition.And.Exercise.Web"
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Github
+                  </a>
+                  {/* <a
+                    href=""
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Site
+                  </a> */}
+                </div>
               </div>
             </div>
           </article>

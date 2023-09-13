@@ -62,9 +62,11 @@ export default function ContactTemplate() {
             required
           />
           <div style={{ display: "flex" }}>
-            <button type="submit" className="btn-box-send btn">
-              <a>Enviar</a>
-            </button>
+            <div className="contact__btn-box">
+              <button type="submit" className="btn">
+                <a>Enviar</a>
+              </button>
+            </div>
           </div>
         </form>
       </div>
