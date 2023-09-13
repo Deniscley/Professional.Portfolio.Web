@@ -16,27 +16,25 @@ export default function AboutTemplate() {
             width={300}
             height={230}
           />
-          <div className="about__circle-spin"></div>
+          <div className="about__circle-spin" />
         </div>
-        <div className="about__content">
-          <h3>Full Stack Developer</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            expedita incidunt officiis sed rem, ducimus quia eveniet? Ut
-            voluptatem quis distinctio repudiandae nemo voluptatibus enim dicta
-            expedita totam! Quam, distinctio!
-          </p>
+        <h3>Full Stack Developer</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          expedita incidunt officiis sed rem, ducimus quia eveniet? Ut
+          voluptatem quis distinctio repudiandae nemo voluptatibus enim dicta
+          expedita totam! Quam, distinctio!
+        </p>
 
-          <div className="about__btn-box">
-            <a
-              href="/images/CurriculumVitae_Deniscley.pdf"
-              download="CurriculumVitae_Deniscley"
-              className="btn"
-            >
-              <AiOutlineDownload />
-              <div>Download CV</div>
-            </a>
-          </div>
+        <div className="about__btn-box">
+          <a
+            href="/images/CurriculumVitae_Deniscley.pdf"
+            download="CurriculumVitae_Deniscley"
+            className="btn"
+          >
+            <AiOutlineDownload />
+            <div>Download CV</div>
+          </a>
         </div>
       </div>
     </section>
