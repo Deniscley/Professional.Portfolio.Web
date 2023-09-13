@@ -24,6 +24,15 @@
   --transition: all 500ms ease;
 }
 
+[data-theme="light"] {
+  --primary-hue: ##ffffffff;
+  --primary-color: var(--primary-hue);
+  --second-color: #f1f1f1;
+  --text-color: #131313;
+  --main-color: #64919fff;
+  background-image: none;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
