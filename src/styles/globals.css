@@ -25,7 +25,7 @@
 }
 
 [data-theme="light"] {
-  --primary-hue: ##ffffffff;
+  --primary-hue: #f9f8f6ff;
   --primary-color: var(--primary-hue);
   --second-color: #f1f1f1;
   --text-color: #131313;

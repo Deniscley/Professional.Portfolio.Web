@@ -40,6 +40,42 @@
   border-right: 0.2rem solid var(--main-color);
 }
 
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.about__card {
+  background-color: var(--second-color);
+  border: 0.2rem solid var(--main-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about__card:hover {
+  background: transparent;
+  border-color: var(--text-color);
+  cursor: default;
+}
+
+.about__icon {
+  color: var(--main-color);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--text-color);
+}
+
+.about__card h5 {
+  font-size: 0.95rem;
+}
+
 .about__container {
   text-align: center;
 }
@@ -80,4 +116,10 @@
 
 .about__btn-box a:hover {
   color: var(--main-color);
+}
+
+@media screen and (max-width: 600px) {
+  .about__cards {
+    grid-template-columns: 1fr;
+  }
 }
