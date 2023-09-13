@@ -6,6 +6,7 @@ import { MdOutlineClose } from "react-icons/md";
 import "./navbar.css";
 import { links } from "../../../state/routes/routes";
 import { yellowtail } from "@/assets/fonts/fonts";
+import LightMode from "@/components/lightMode/light-mode";
 
 export default function Navbar() {
   const isActive = usePathname();
@@ -36,6 +37,10 @@ export default function Navbar() {
             );
           })}
         </ul>
+
+        <div className="light-mode__color-icon">
+          <LightMode />
+        </div>
 
         <button
           className="nav__toggle-btn"
