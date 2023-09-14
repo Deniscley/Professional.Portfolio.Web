@@ -72,10 +72,6 @@ footer a {
   overflow: hidden;
 }
 
-.footer__iconUp {
-  transition: 0.5s;
-}
-
 .footer__iconTop a::before {
   content: "";
   position: absolute;
@@ -92,10 +88,11 @@ footer a {
   width: 100%;
 }
 
-.footer__iconTop a:hover i {
-}
-
 @media screen and (max-width: 600px) {
+  .footer__iconTop {
+    text-align: center;
+    margin-right: 0;
+  }
   .permalinks {
     flex-direction: column;
     gap: 1.5rem;
