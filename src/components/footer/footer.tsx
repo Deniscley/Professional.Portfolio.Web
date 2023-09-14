@@ -55,7 +55,7 @@ export default function Footer() {
 
       <div className="footer__iconTop">
         <a href="/">
-          <BiSolidChevronsUp className="footer__iconUp" />
+          <BiSolidChevronsUp />
         </a>
       </div>
     </footer>
