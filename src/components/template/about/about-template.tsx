@@ -38,10 +38,13 @@ export default function AboutTemplate() {
           </article>
         </div>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          expedita incidunt officiis sed rem, ducimus quia eveniet? Ut
-          voluptatem quis distinctio repudiandae nemo voluptatibus enim dicta
-          expedita totam! Quam, distinctio!
+          Sou Deniscley Marfran, um entusiasta de DevOps, Domain-Driven Design
+          (DDD), Arquitetura de Software e Código Limpo (Clean Code). Formado no
+          curso de Bacharelado em Ciência da Computação pela Universidade
+          Federal de Lavras. Dentro da área de atuação profissional, atuo como
+          desenvolvedor de software full stack com foco no desenvolvimento de
+          aplicações para web utilizando-se de diversas tecnologias para estar
+          melhorando as experiências do usuário de maneira moderna e amigável.
         </p>
 
         <div className="about__btn-box">
