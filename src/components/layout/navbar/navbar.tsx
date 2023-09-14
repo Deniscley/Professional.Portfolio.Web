@@ -6,7 +6,7 @@ import { MdOutlineClose } from "react-icons/md";
 import "./navbar.css";
 import { links } from "../../../state/routes/routes";
 import { yellowtail } from "@/assets/fonts/fonts";
-import LightMode from "@/components/lightMode/light-mode";
+import LightMode from "@/components/layout/lightMode/light-mode";
 
 export default function Navbar() {
   const isActive = usePathname();
