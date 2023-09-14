@@ -61,9 +61,9 @@ export default function HomeTemplate() {
             />
           </div>
 
-          {/* <a href="/contato" className="scroll__down">
-            SCROLL DOWN
-          </a> */}
+          <a href="/contato" className="scroll__down">
+            ROLAR PARA BAIXO
+          </a>
         </div>
       </div>
     </section>

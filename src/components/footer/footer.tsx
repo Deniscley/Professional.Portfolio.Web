@@ -2,6 +2,7 @@ import "./footer.css";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { RiTwitterFill } from "react-icons/ri";
 import { yellowtail } from "@/assets/fonts/fonts";
+import { BiSolidChevronsUp } from "react-icons/bi";
 
 export default function Footer() {
   return (
@@ -50,6 +51,12 @@ export default function Footer() {
         <small>
           &copy; Portfólio Deniscley Marfran. Todos os direitos reservados.
         </small>
+      </div>
+
+      <div className="footer__iconTop">
+        <a href="/">
+          <BiSolidChevronsUp className="footer__iconUp" />
+        </a>
       </div>
     </footer>
   );
