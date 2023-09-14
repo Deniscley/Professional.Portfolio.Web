@@ -110,7 +110,7 @@
 
 .scroll__down {
   position: absolute;
-  right: -2.3rem;
+  right: -5rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 1.6rem;
