@@ -27,7 +27,7 @@
 [data-theme="light"] {
   --primary-hue: #f9f8f6ff;
   --primary-color: var(--primary-hue);
-  --second-color: #f1f1f1;
+  --second-color: #e2e2e2ff;
   --text-color: #131313;
   --main-color: #64919fff;
   background-image: none;
