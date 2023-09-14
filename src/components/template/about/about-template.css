@@ -38,6 +38,7 @@
   border-bottom: 0.2rem solid var(--second-color);
   border-left: 0.2rem solid var(--main-color);
   border-right: 0.2rem solid var(--main-color);
+  animation: aboutSpinner 8s linear infinite;
 }
 
 .about__cards {
@@ -121,5 +122,11 @@
 @media screen and (max-width: 600px) {
   .about__cards {
     grid-template-columns: 1fr;
+  }
+}
+
+@keyframes aboutSpinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
