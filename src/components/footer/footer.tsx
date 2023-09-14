@@ -3,6 +3,7 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { RiTwitterFill } from "react-icons/ri";
 import { yellowtail } from "@/assets/fonts/fonts";
 import { BiSolidChevronsUp } from "react-icons/bi";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -54,9 +55,9 @@ export default function Footer() {
       </div>
 
       <div className="footer__iconTop">
-        <a href="/">
+        <Link href="/">
           <BiSolidChevronsUp />
-        </a>
+        </Link>
       </div>
     </footer>
   );
