@@ -48,6 +48,12 @@
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 0.108rem var(--main-color);
+  background-image: linear-gradient(var(--main-color), var(--main-color));
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -33rem 0;
+  animation: homeBgText 10s linear infinite;
+  animation-delay: 2s;
 }
 
 .home__text-animate p {
@@ -245,5 +251,18 @@
 
   .home__rigth {
     place-items: initial;
+  }
+}
+
+@keyframes homeBgText {
+  0%,
+  10%,
+  100% {
+    background-position: -80rem 0;
+  }
+
+  65%,
+  85% {
+    background-position: 0 0;
   }
 }
