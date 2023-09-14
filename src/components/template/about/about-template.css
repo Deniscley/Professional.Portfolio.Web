@@ -68,12 +68,12 @@
 }
 
 .about__card small {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--text-color);
 }
 
 .about__card h5 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .about__container {
