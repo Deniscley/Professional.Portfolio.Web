@@ -21,11 +21,11 @@ export default function JourneyTemplate() {
                   </div>
                   <h3>Universidade Federal de Lavras</h3>
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Dolores maxime architecto voluptas facere, officia
-                    voluptatibus veritatis necessitatibus vel, dolorem incidunt
-                    magnam at sit fuga atque distinctio ullam quasi.
-                    Exercitationem, ad.
+                    Formei no curso de Bacharelado em Ciência da Computação pela
+                    Universidade Federal de Lavras. Nesse período, desenvolvi
+                    várias competências tais como: a base prática e teórica da
+                    minha área de atuação, o trabalho em equipe, a proativade,
+                    entre outras habilidades.
                   </p>
                 </div>
               </div>
@@ -41,11 +41,11 @@ export default function JourneyTemplate() {
                   </div>
                   <h3>Squadra Digital</h3>
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Dolores maxime architecto voluptas facere, officia
-                    voluptatibus veritatis necessitatibus vel, dolorem incidunt
-                    magnam at sit fuga atque distinctio ullam quasi.
-                    Exercitationem, ad.
+                    Atuei ativamente em projetos no intuito de otimizar a
+                    experiência dos usuários. Colaborei na criação de sistemas
+                    de gerenciamento de tarefas participando ativamente na
+                    definição de soluções e resultando em maior eficiência e
+                    produtividade para o cliente.
                   </p>
                 </div>
               </div>

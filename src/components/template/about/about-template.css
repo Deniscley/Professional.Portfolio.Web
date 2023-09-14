@@ -88,6 +88,7 @@
 .about__container p {
   font-size: 1.6rem;
   margin: 2rem 18rem 3rem;
+  text-align: center;
 }
 
 .about__btn-box .btn {
