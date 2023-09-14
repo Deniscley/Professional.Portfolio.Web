@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./home-template.css";
 import { AiOutlineDownload, AiOutlineMail } from "react-icons/ai";
 import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
@@ -61,9 +62,9 @@ export default function HomeTemplate() {
             />
           </div>
 
-          <a href="/contato" className="scroll__down">
+          <Link href="/contato" className="scroll__down">
             ROLAR PARA BAIXO
-          </a>
+          </Link>
         </div>
       </div>
     </section>
