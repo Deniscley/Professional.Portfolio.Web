@@ -86,6 +86,12 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .portfolio__item {
+    width: 34rem;
+  }
+}
+
 @media screen and (max-width: 280px) {
   .portfolio__button-center {
     display: contents;
