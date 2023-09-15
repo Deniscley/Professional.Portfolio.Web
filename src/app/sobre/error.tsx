@@ -6,7 +6,7 @@ export default function Error({
   error,
   reset,
 }: {
-  error: Error & { digest?: string };
+  error: Error;
   reset: () => void;
 }) {
   useEffect(() => {
@@ -16,15 +16,18 @@ export default function Error({
 
   return (
     <div>
-      <h2>Something went wrong!</h2>
-      <button
-        onClick={
-          // Attempt to recover by trying to re-render the segment
-          () => reset()
-        }
-      >
-        Try again
-      </button>
+      <div className="container notfound-error__container">
+        <h4 className="heading">Algo deu errado!</h4>
+        <button
+          className="btn"
+          onClick={
+            // Attempt to recover by trying to re-render the segment
+            () => reset()
+          }
+        >
+          Tente novamente
+        </button>
+      </div>
     </div>
   );
 }
