@@ -6,7 +6,7 @@ import { poppins } from "@/assets/fonts/fonts";
 import Footer from "@/components/layout/footer/footer";
 
 export const metadata: Metadata = {
-  title: "Deniscley Marfran - Portifólio Profissional",
+  title: "Deniscley Marfran - Portfólio Profissional",
   description: "Este é o site oficial do meu portfólio para me apresentar.",
 };
 
