@@ -47,7 +47,10 @@ export default function ContactTemplate() {
             </a>
           </article>
         </div>
-        <form action="">
+        <form
+          action="https://formsubmit.co/deniscleymaf@yahoo.com.br"
+          method="POST"
+        >
           <input
             type="text"
             name="name"
