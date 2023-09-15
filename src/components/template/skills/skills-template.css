@@ -210,9 +210,15 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 428px) {
   .skills__images {
     width: 64%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .skills__images {
+    width: 72%;
   }
 }
 
