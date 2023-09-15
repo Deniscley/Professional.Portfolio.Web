@@ -91,6 +91,10 @@
     width: 13rem;
     height: 10rem;
   }
+
+  .swiper-backface-hidden .swiper-slide {
+    height: 22rem;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -111,5 +115,9 @@
   .clients__client img {
     width: 7rem;
     height: 4rem;
+  }
+
+  .clients__client-name {
+    font-size: 1.4rem;
   }
 }
