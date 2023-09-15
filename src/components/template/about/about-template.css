@@ -124,6 +124,10 @@
   .about__cards {
     grid-template-columns: 1fr;
   }
+
+  .about__container p {
+    margin: 2rem 4rem 3rem;
+  }
 }
 
 @keyframes aboutSpinner {
