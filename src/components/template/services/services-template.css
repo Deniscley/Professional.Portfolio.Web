@@ -210,6 +210,7 @@
   .service__content {
     height: 45rem;
   }
+
   .service {
     grid-template-columns: 1fr;
     gap: 1.5rem;

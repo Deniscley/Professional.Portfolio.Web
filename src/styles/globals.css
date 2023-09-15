@@ -121,6 +121,18 @@ span {
   color: var(--main-color);
 }
 
+.notfound-error__container {
+  margin-top: 10rem;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.notfound-error__container .btn {
+  margin-top: 2rem;
+  margin-bottom: 18rem;
+  display: inline-block;
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
