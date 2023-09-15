@@ -25,7 +25,6 @@ nav {
   margin-top: 1rem;
 }
 
-/* Só aparece em telas médias e pequenas */
 .nav__toggle-btn {
   display: none;
   margin-top: 1rem;
