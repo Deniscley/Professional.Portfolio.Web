@@ -1,6 +1,6 @@
 import "./footer.css";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
-import { RiTwitterFill } from "react-icons/ri";
+import { RiThreadsFill, RiTwitterFill, RiTwitterXFill } from "react-icons/ri";
 import { yellowtail } from "@/assets/fonts/fonts";
 import { BiSolidChevronsUp } from "react-icons/bi";
 import Link from "next/link";
@@ -44,7 +44,10 @@ export default function Footer() {
           <BsInstagram />
         </a>
         <a href="https://twitter.com/DeniscleyMAF">
-          <RiTwitterFill />
+          <RiTwitterXFill />
+        </a>
+        <a href="https://www.threads.net/@deniscleymarfran">
+          <RiThreadsFill />
         </a>
       </div>
 
