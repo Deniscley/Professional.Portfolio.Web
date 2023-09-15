@@ -35,6 +35,7 @@
   padding: 1rem;
   z-index: 1;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 .service__content::before {
