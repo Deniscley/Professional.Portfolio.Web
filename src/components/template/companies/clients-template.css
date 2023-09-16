@@ -66,55 +66,67 @@
 }
 
 @media screen and (max-width: 970px) {
-  .clients__container {
-    width: 70%;
+  .container.clients__container {
+    width: 60%;
   }
 
   .clients__client img {
-    width: 25rem;
+    width: 40rem;
+    height: 20rem;
   }
 }
 
 @media screen and (max-width: 725px) {
-  .clients__container {
-    width: 85%;
+  .container.clients__container {
+    width: 68%;
   }
 
   .clients__client img {
-    width: 18rem;
-    height: 12rem;
+    width: 33rem;
+    height: 17rem;
   }
 }
 
 @media screen and (max-width: 540px) {
+  .container.clients__container {
+    width: 80%;
+  }
+
   .clients__client img {
-    width: 13rem;
-    height: 10rem;
+    width: 30rem;
+    height: 17rem;
   }
 
   .swiper-backface-hidden .swiper-slide {
-    height: 22rem;
+    height: 25rem;
   }
 }
 
 @media screen and (max-width: 414px) {
   .clients__client img {
-    width: 12rem;
+    width: 16rem;
     height: 10rem;
+  }
+
+  .container.clients__container {
+    width: 55%;
   }
 }
 
 @media screen and (max-width: 390px) {
+  .container.clients__container {
+    width: 63%;
+  }
   .clients__client img {
-    width: 10rem;
-    height: 7rem;
+    width: 15rem;
+    height: 10rem;
   }
 }
 
 @media screen and (max-width: 280px) {
   .clients__client img {
-    width: 7rem;
-    height: 4rem;
+    width: 13rem;
+    height: 8rem;
   }
 
   .clients__client-name {
