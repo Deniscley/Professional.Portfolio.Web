@@ -17,7 +17,7 @@ export default function HomeTemplate() {
             <p>
               Este é o meu site oficial profissional para estar me apresentando
               e mostrar todos os meus trabalhos relacionados ao desenvolvimento
-              web.
+              de software para web.
             </p>
 
             <div className="home__btn-box">
