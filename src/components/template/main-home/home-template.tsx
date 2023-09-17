@@ -15,7 +15,7 @@ export default function HomeTemplate() {
           <div className="home__text-animate">
             <h3>Full Stack Developer</h3>
             <p>
-              Este é o site oficial do meu portfólio para estar me apresentando
+              Este é o meu site oficial profissional para estar me apresentando
               e mostrar todos os meus trabalhos relacionados ao desenvolvimento
               web.
             </p>
