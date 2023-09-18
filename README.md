@@ -2,9 +2,7 @@
 
 Projeto de meu portfólio pessoal para apresentar meus trabalhos relacionados ao desenvolvimento web.
 
-<div style={{ text-align: center }}>
-    <img alt="logo" src="logo.jpg"/>
-<div>
+<img alt="logo" src="logo.jpg"/>
 
 ## Autores
 
@@ -42,10 +40,10 @@ Inicie o servidor
 
 ```bash
   npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
 ```
 
 ## Suporte
