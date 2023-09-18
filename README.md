@@ -2,7 +2,9 @@
 
 Projeto de meu portfólio pessoal para apresentar meus trabalhos relacionados ao desenvolvimento web.
 
-<img alt="logo" src="logo.jpg"/>
+<div style={{ text-align: center }}>
+    <img alt="logo" src="logo.jpg"/>
+<div>
 
 ## Autores
 
