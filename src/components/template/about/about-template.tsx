@@ -49,8 +49,8 @@ export default function AboutTemplate() {
 
         <div className="about__btn-box">
           <a
-            href="/images/CurriculumVitae_Deniscley.pdf"
-            download="CurriculumVitae_Deniscley"
+            href="/images/CurriculumVitae-Deniscley_Marfran.pdf"
+            download="CurriculumVitae-Deniscley_Marfran"
             className="btn"
           >
             <AiOutlineDownload />
