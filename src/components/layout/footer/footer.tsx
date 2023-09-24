@@ -1,3 +1,4 @@
+"use client";
 import "./footer.css";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { RiThreadsFill, RiTwitterXFill } from "react-icons/ri";
@@ -5,8 +6,18 @@ import { AiFillYoutube } from "react-icons/ai";
 import { yellowtail } from "@/assets/fonts/fonts";
 import { BiSolidChevronsUp } from "react-icons/bi";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathName = usePathname();
+
+  const setPathname = () => {
+    if (pathName === "/") {
+      return true;
+    }
+    return false;
+  };
+
   return (
     <footer>
       <a href="/" className="footer__logo">
@@ -61,11 +72,13 @@ export default function Footer() {
         </small>
       </div>
 
-      <div className="footer__iconTop">
-        <Link href="/">
-          <BiSolidChevronsUp />
-        </Link>
-      </div>
+      {setPathname() && (
+        <div className="footer__iconTop">
+          <Link href="/">
+            <BiSolidChevronsUp />
+          </Link>
+        </div>
+      )}
     </footer>
   );
 }
