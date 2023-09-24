@@ -60,7 +60,7 @@
 
 .contact__option:hover {
   background: var(--main-color);
-  border: 2px solid var(--main-color);
+  border: 2px solid var(--text-color);
 }
 
 .contact__option h2 {
