@@ -73,7 +73,7 @@
 
 .contact__option a {
   font-size: 1.4rem;
-  color: var(--text-color);
+  color: var(--main-color);
   display: inline-block;
   margin-top: 0.8rem;
 }

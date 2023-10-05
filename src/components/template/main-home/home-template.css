@@ -17,6 +17,7 @@
 .home__image {
   border-radius: 15rem 0 10rem 0;
   overflow: hidden;
+  margin-top: 2rem;
 }
 
 .home__image img {
