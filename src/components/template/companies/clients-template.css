@@ -34,6 +34,10 @@
   color: var(--text-color);
 }
 
+.clients__client h5:hover {
+  color: var(--main-color);
+}
+
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background: var(--main-color);
 }

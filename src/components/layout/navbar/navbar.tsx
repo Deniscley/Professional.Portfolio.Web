@@ -39,9 +39,9 @@ export default function Navbar() {
           })}
         </ul>
 
-        {/* <div className="light-mode__color-icon">
+        <div className="light-mode__color-icon">
           <LightMode />
-        </div> */}
+        </div>
 
         <button
           className="nav__toggle-btn"
