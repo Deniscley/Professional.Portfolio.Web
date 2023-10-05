@@ -88,12 +88,14 @@ footer a {
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .footer__iconTop {
     text-align: center;
     margin-right: 0;
   }
+}
 
+@media screen and (max-width: 600px) {
   .permalinks {
     flex-direction: column;
     gap: 1.5rem;
