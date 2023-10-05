@@ -49,19 +49,39 @@ export default function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.facebook.com/deniscley.marfran">
+        <a
+          href="https://www.facebook.com/deniscley.marfran"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <BsFacebook />
         </a>
-        <a href="https://www.instagram.com/deniscleymarfran/">
+        <a
+          href="https://www.instagram.com/deniscleymarfran/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <BsInstagram />
         </a>
-        <a href="https://twitter.com/DeniscleyMAF">
+        <a
+          href="https://twitter.com/DeniscleyMAF"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <RiTwitterXFill />
         </a>
-        <a href="https://www.threads.net/@deniscleymarfran">
+        <a
+          href="https://www.threads.net/@deniscleymarfran"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <RiThreadsFill />
         </a>
-        <a href="https://www.youtube.com/@DeniscleyMarfran">
+        <a
+          href="https://www.youtube.com/@DeniscleyMarfran"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <AiFillYoutube />
         </a>
       </div>
