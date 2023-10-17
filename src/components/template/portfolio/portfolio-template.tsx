@@ -86,7 +86,7 @@ export default function PortfolioTemplate() {
                 height={370}
               />
             </div>
-            <h2>Denis Marlon - Nutrição & Exercício</h2>
+            <h2>Deniscley Marfran - Galeria de Fotos Pessoal</h2>
             <div className="btn-box portfolio__button-center">
               <div className="portfolio__item-button">
                 <div className="portfolio__btn-box">
