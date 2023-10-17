@@ -14,7 +14,7 @@ export default function PortfolioTemplate() {
               <img
                 src="/images/site_n&e.jpg"
                 alt="Portfolio Image"
-                width={520}
+                width={540}
                 height={370}
               />
             </div>
@@ -86,7 +86,7 @@ export default function PortfolioTemplate() {
                 height={370}
               />
             </div>
-            <h2>Deniscley Marfran - Galeria de Fotos Pessoal</h2>
+            <h2>Deniscley Marfran - Galeria Pessoal</h2>
             <div className="btn-box portfolio__button-center">
               <div className="portfolio__item-button">
                 <div className="portfolio__btn-box">
