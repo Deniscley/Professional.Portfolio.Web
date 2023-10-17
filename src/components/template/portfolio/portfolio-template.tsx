@@ -76,6 +76,40 @@ export default function PortfolioTemplate() {
               </div>
             </div>
           </article>
+
+          <article className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img
+                src="/images/galeria_deniscley.jpg"
+                alt="Portfolio Image"
+                width={540}
+                height={370}
+              />
+            </div>
+            <h2>Denis Marlon - Nutrição & Exercício</h2>
+            <div className="btn-box portfolio__button-center">
+              <div className="portfolio__item-button">
+                <div className="portfolio__btn-box">
+                  <a
+                    href="https://github.com/Deniscley/Personal.Photography.Gallery.Web"
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Github
+                  </a>
+                  {/* <a
+                  href=""
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Site
+                </a> */}
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
